@@ -1,9 +1,9 @@
 # Mandatory settings
 
-blog_theme: dark # Or use light
-name: Gu Shaoting
+blog_theme: light # Or use dark
+name: 古少亭
 paginate: 25
-url: https://instrumaker.github.io/portfolio/
+url: https://gushaoting.com
 
 
 # Optional settings
