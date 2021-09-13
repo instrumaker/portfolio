@@ -17,3 +17,9 @@ $(document).ready(function() {
     return false;
   });
 });
+
+function sendMail()
+{
+    var body = document.getElementById("comment").value;
+    window.location.href = "mailto:mail@biaopiao@gmail.com?subject=关于"+ page.title +"&body="+body;
+}
