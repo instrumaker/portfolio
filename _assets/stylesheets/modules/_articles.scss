@@ -209,26 +209,26 @@
     margin-top: 20px;
     margin-left: auto;
     width: 100px;
-    height: 50px;
+    height: 40px;
     text-align: center;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-user-select: none;
     cursor: pointer;
-    border: 0px;
-    background-color: $header-logo-color;
-    color: $body-background;
+    border: 1px solid $header-logo-color;
+    background-color: $body-background;
+    color: $header-logo-color;
   }
 
   button:hover {
-    background-color: $article-footer-link-color-hover;
+    background-color: $header-logo-color;
     color: $body-background;
   }
 
   textarea:focus {
     border: 1px solid $header-logo-color;
-    box-shadow: 0 0 0 3px $header-logo-color;
+    box-shadow: 0 0 0 2px $header-logo-color;
     outline: 1px solid transparent;
   }
 

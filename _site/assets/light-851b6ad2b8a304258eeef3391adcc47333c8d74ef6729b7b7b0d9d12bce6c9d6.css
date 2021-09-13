@@ -826,22 +826,22 @@ img {
     margin-top: 20px;
     margin-left: auto;
     width: 100px;
-    height: 50px;
+    height: 40px;
     text-align: center;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-user-select: none;
     cursor: pointer;
-    border: 0px;
-    background-color: #000;
-    color: #fff; }
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000; }
   .article-comments button:hover {
-    background-color: #121111;
+    background-color: #000;
     color: #fff; }
   .article-comments textarea:focus {
     border: 1px solid #000;
-    box-shadow: 0 0 0 3px #000;
+    box-shadow: 0 0 0 2px #000;
     outline: 1px solid transparent; }
 
 .article-share {
