@@ -184,6 +184,7 @@
   padding-top: 20px;
   margin-top: 30px;
   border-top: 1px solid $base-border-color;
+  font-size: 15px;
 
   p {
     display: block;
@@ -208,7 +209,7 @@
     display: block;
     margin-top: 20px;
     margin-left: auto;
-    width: 100px;
+    width: 80px;
     height: 40px;
     text-align: center;
     box-sizing: border-box;
@@ -219,11 +220,13 @@
     border: 1px solid $header-logo-color;
     background-color: $body-background;
     color: $header-logo-color;
+    transition: 180ms box-shadow ease-in-out;
   }
 
   button:hover {
-    background-color: $header-logo-color;
-    color: $body-background;
+    border: 1px solid $header-logo-color;
+    box-shadow: 0 0 0 2px $header-logo-color;
+    outline: 1px solid transparent;
   }
 
   textarea:focus {
