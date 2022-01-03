@@ -9,7 +9,7 @@
       {{ include.post.content | strip_html | strip_newlines | split: ""  | size | minus: 10 }}
     {% endcapture %}
     {% unless words contains "-" %}
-      {{ words | plus: 250 | divided_by: 320 | append: " 分钟读完" }}
+      {{ words | plus: 350 | divided_by: 350 | append: " 分钟读完" }}
     {% endunless %}
 
   </span>
