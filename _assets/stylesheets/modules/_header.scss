@@ -4,20 +4,19 @@
 
 .header-nav {
   display: block;
-  padding: 75px 0 50px;
+  padding: 75px 0 20px;
 }
 
 .header-logo {
   display: inline-block;
   font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
-  font-size: 20px;
+  font-size: 40px;
   font-weight: normal;
   color: $header-logo-color;
   text-decoration: none;
 }
 
 .header-links {
-  float: right;
   padding: 0;
   list-style: none;
   li {

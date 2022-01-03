@@ -16,6 +16,6 @@ $(document).ready(function() {
   function sendMail()
   {
       var body = document.getElementById("comment").value;
-      window.location.href = "mailto:biaopiao@gmail.com?subject=关于"+ substring(document.title.lastIndexOf("-")+1); +"&body="+body;
+      window.location.href = "mailto:biaopiao@gmail.com?subject=关于"+ document.title +"&body="+body;
   }
 ;
