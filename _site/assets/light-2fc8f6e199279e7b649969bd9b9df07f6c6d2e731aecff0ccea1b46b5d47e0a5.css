@@ -531,11 +531,11 @@ img {
 
 .footer {
   display: block;
-  padding-top: 35px;
+  padding-top: 50px;
   margin-bottom: 85px;
   border-top: 1px solid #ebeaea; }
   .footer p {
-    font-size: 15px;
+    font-size: 13px;
     color: #ada8a8; }
   .footer a {
     text-decoration: none; }
@@ -672,7 +672,7 @@ img {
 .article-list {
   display: block;
   padding: 0;
-  margin: 50px 0;
+  margin: 10px 0;
   list-style: none; }
   .article-list li {
     position: relative;
@@ -766,9 +766,7 @@ img {
 
 .article-header {
   display: block;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  border-bottom: 1px solid #ebeaea; }
+  margin-bottom: 30px; }
   .article-header p {
     display: block;
     margin: 12px 0 10px;
@@ -803,13 +801,10 @@ img {
 
 .article-comments {
   display: block;
-  padding-top: 20px;
-  margin-top: 30px;
+  padding-top: 50px;
+  margin-top: 50px;
   border-top: 1px solid #ebeaea;
   font-size: 15px; }
-  .article-comments p {
-    display: block;
-    margin: 30px 0; }
   .article-comments textarea {
     display: block;
     width: 100%;
@@ -847,31 +842,6 @@ img {
     box-shadow: 0 0 0 2px #000;
     outline: 1px solid transparent; }
 
-.article-share {
-  display: block;
-  margin-top: -4px; }
-  .article-share a {
-    display: inline-block;
-    margin-right: 12px;
-    vertical-align: middle; }
-    .article-share a svg {
-      vertical-align: middle;
-      transition: fill 0.2s linear;
-      fill: #ada8a8;
-      width: 20px; }
-    .article-share a:hover svg {
-      fill: #615b5b; }
-
-@media all and (max-width: 767px) {
-  .article-list-footer {
-    display: block; }
-
-  .article-list-divider:last-of-type {
-    display: none; }
-
-  .article-list-tags {
-    display: block;
-    margin-top: -7px; } }
 .embed-responsive {
   position: relative;
   display: block;
@@ -897,20 +867,20 @@ img {
 
 .header-nav {
   display: block;
-  padding: 75px 0 20px;
+  padding: 75px 0 50px;
   border-bottom: 1px solid #ebeaea; }
 
 .header-logo {
   display: inline-block;
   font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
-  font-size: 30px;
+  font-size: 20px;
+  font-weight: normal;
   color: #000;
   text-decoration: none; }
 
 .header-links {
   float: right;
   padding: 0;
-  margin: 15px 0 0;
   list-style: none; }
   .header-links li {
     display: inline-block;
@@ -919,15 +889,9 @@ img {
     .header-links li:first-child {
       margin-left: 0; }
     .header-links li a {
-      font-size: 18px;
+      font-size: 15px;
       color: #393636;
       cursor: pointer; }
-      .header-links li a svg {
-        width: 16px;
-        height: 16px;
-        fill: #393636; }
-      .header-links li a:hover svg {
-        fill: #121111; }
 
 .header-tags {
   padding: 0;
@@ -943,24 +907,6 @@ img {
       .header-tags li a:hover {
         color: #121111; }
 
-@media all and (max-width: 520px) {
-  .header-nav {
-    text-align: center; }
-
-  .header-links {
-    display: block;
-    float: none;
-    text-align: center; }
-    .header-links li {
-      margin: 0 10px; }
-      .header-links li:last-child {
-        margin-right: 0; }
-
-  .header-tags {
-    margin: 20px 0 0;
-    text-align: center; }
-    .header-tags li {
-      padding: 0 5px; } }
 .highlight {
   padding: 25px;
   margin: 0;

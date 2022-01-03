@@ -9,7 +9,6 @@
         <article class="article {% if site.scrollappear_enabled %}scrollappear{% endif %}">
           <header class="article-header">
             <h1>{{ page.title }}</h1>
-            <p>{{ page.description }}</p>
             {% include article/info-footer.html post=page %}
           </header>
 
@@ -18,7 +17,7 @@
           </div>
 
           <div class="article-comments">
-            <p>说点什么</p>
+            <p>看完了，就说点什么吧</p>
             <textarea id="comment"></textarea>
             <button onclick="sendMail()">好了</button>
           </div>

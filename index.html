@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "首页"
+title: "少亭"
 ---
 
 <ul class="article-list">
@@ -12,13 +12,6 @@ title: "首页"
           {% include svg-icon.html icon="arrow-right" %}
         </h5>
       </a>
-      <p>
-        {% if post.description %}
-          {{ post.description }}  
-        {% else %}
-          {{ post.excerpt }}
-        {% endif %}
-      </p>
       {% include article/info-footer.html post=post %}
     </li>
   {% endfor %}

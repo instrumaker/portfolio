@@ -3,30 +3,23 @@
   <ul class="header-links">
     {% if site.about_enabled == true %}
       <li>
-        <a href="{{ 'about' | relative_url }}" title="About me">
-          {% include svg-icon.html icon="about" %}
+        <a href="{{ 'about' | relative_url }}" title="关于">
+          关于我
         </a>
       </li>
     {% endif %}
     
     {% if site.social.email %}
       <li>
-        <a href="mailto:{{ site.social.email }}" title="Email">
-          {% include svg-icon.html icon="email" %}
+        <a href="mailto:{{ site.social.email }}?subject=你好。" title="邮件">
+          邮件
         </a>
       </li>
     {% endif %}
     {% if site.rss_enabled == true %}
       <li>
         <a href="{{ 'feed.xml' | relative_url }}" rel="noreferrer noopener" target="_blank" title="RSS">
-          {% include svg-icon.html icon="rss" %}
-        </a>
-      </li>
-    {% endif %}
-    {% if site.theme_toggle == true %}
-      <li>
-        <a onclick="toggle()" title="Toggle Theme">
-          {% include svg-icon.html icon="theme" %}
+          RSS
         </a>
       </li>
     {% endif %}
