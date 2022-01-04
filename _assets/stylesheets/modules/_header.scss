@@ -8,7 +8,7 @@
 }
 
 .header-logo {
-  display: inline-block;
+  display: inline;
   font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
   font-size: 40px;
   font-weight: normal;
@@ -20,7 +20,7 @@
   padding: 0;
   list-style: none;
   li {
-    display: inline-block;
+    display: inline;
     margin-left: 20px;
     vertical-align: middle;
     &:first-child {

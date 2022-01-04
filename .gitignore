@@ -1,3 +1,5 @@
 Gemfile.lock
 .jekyll-cache
 _assets/yarn
+_site/*
+_site

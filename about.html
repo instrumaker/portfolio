@@ -5,11 +5,9 @@ description: "网站作者是谁？"
 ---
 
 <div class="about {% if site.scrollappear_enabled %}scrollappear{% endif %}">
-  <p>
-    {% include image.html path="documentation/about.png" path-detail="documentation/about.png" alt="1" width="150" %}
-    <br>
-    少亭<br>
-    <br>
+  {% include image.html path="documentation/about.png" path-detail="documentation/about.png" alt="about" width="150" style="display:inline;" %}
+    <p><br>少亭<br><br>
+
     1991年：出生。<br>
     2005年：长沙岳麓山下念中学。<br>
     2008年：杭州读大学，学工业设计和一些计算机知识。毕业设计做了个声学装置。<br>
@@ -17,9 +15,8 @@ description: "网站作者是谁？"
     2015年：北京上班，在知乎和字节跳动。从事互联网产品经理职业。<br>
     2019年：上海小红书做内容/社区产品。<br>
     2020年：杭州，在阿里巴巴做电商产品。<br>
-    <br>
-    目前在杭州上班、写小说、拍照片。<br>
-    <br>
-    你可以通过<a href="mailto:{{ site.social.email }}?subject=你好。" title="Email">邮件</a>联系我。<br>
-  </p>
+
+    <br>目前在杭州上班、写小说、拍照片。<br>
+    
+    <br>你可以通过<a href="mailto:{{ site.social.email }}?subject=你好。" title="Email">邮件</a>联系我。</p>
 </div>
