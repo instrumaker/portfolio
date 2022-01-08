@@ -12,12 +12,3 @@ $(document).ready(function() {
   ).listen('.zooming');
 
 });
-
-  // 发邮件
-  function sendMail()
-  {
-      // var body = document.getElementById("comment").value;
-      window.location.href = "mailto:biaopiao@gmail.com";
-      // 微信内不支持发主题
-      // window.location.href = "mailto:biaopiao@gmail.com?subject=关于"+ document.title +"&body="+body;
-  }

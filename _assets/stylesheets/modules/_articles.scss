@@ -163,37 +163,8 @@
 
 .article-comments {
   display: block;
-  padding: 200px 0;
+  padding: 100px 0;
   font-size: 15px;
-
-  button {
-    display: block;
-    margin: auto;
-    width: 30%;
-    height: 50px;
-    text-align: center;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-user-select: none;
-    cursor: pointer;
-    border: 1px solid $header-logo-color;
-    background-color: $body-background;
-    color: $header-logo-color;
-    transition: 180ms box-shadow ease-in-out;
-  }
-
-  button:hover {
-    border: 1px solid $header-logo-color;
-    box-shadow: 0 0 0 2px $header-logo-color;
-    outline: 1px solid transparent;
-  }
-
-  textarea:focus {
-    border: 1px solid $header-logo-color;
-    box-shadow: 0 0 0 2px $header-logo-color;
-    outline: 1px solid transparent;
-  }
 
 }
 
