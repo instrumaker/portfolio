@@ -163,30 +163,14 @@
 
 .article-comments {
   display: block;
-  padding-top: 50px;
-  margin-top: 50px;
+  padding: 200px 0;
   font-size: 15px;
-
-  textarea { 
-    display: block;
-    width: 100%;
-    min-height: 200px;
-    margin-top: 20px;
-    padding: 10px;
-    outline: none;
-    resize: vertical;
-    overflow: auto;
-    transition: 180ms box-shadow ease-in-out;
-    border: 1px solid $article-footer-link-color;
-    caret-color: $article-footer-link-color;
-  }
 
   button {
     display: block;
-    margin-top: 20px;
-    margin-left: auto;
-    width: 80px;
-    height: 40px;
+    margin: auto;
+    width: 30%;
+    height: 50px;
     text-align: center;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
