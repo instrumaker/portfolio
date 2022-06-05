@@ -1,3 +1,9 @@
+# 使用说明：在 package.json 中定义命令；
+# 注意事项：先要把改动 push 到主分支，因为发布成功会会自动 pull 线上主分支；
+# 安装：npm run 安装
+# 本地：npm run 本地
+# 发布：npm run 发布
+
 # Mandatory settings
 
 blog_theme: light # Or use dark
