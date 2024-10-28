@@ -15,7 +15,7 @@ url: https://gushaoting.com
 # Optional settings
 
 about_enabled: true # Change to true if you wish to show an icon in the navigation that redirects to the about page
-ga_analytics: UA-45131556-2 # Add your GA Tracking Id
+ga_analytics: G-6Y0933ZC8T # Add your GA Tracking Id
 local_fonts: false # Change to true if you wish to use local fonts
 rss_enabled: true # Change to false if not
 scrollappear_enabled: true # Change to false to disable
